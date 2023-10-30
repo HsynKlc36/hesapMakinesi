@@ -1,0 +1,35 @@
+﻿@page
+@model HesapMakinesi.Pages.Auth.AccessDeniedModel
+@{
+    ViewData["Title"] = "Yetkilendirme Hatası";
+}
+<h1>403</h1>
+<div>
+    <p>> <span>HATA KODU</span>: "<i>HTTP 403 Yasaklı</i>"</p>
+    <p>> <span>HATA AÇIKLAMASI</span>: "<i>Erişim engellendi. Bu Sunucu da Bu Sayfaya Erişim İzniniz Yok!</i>"</p>
+    <p>> <span>OLASI HATA NEDENİ</span>: [<b>yürütme erişimi yasak, okuma erişimi yasak, yazma erişimi yasak, ssl gerekli, ssl 128 gerekli, ip adresi reddedildi, istemci sertifikası gerekli, site erişimi reddedildi, çok fazla kullanıcı, geçersiz yapılandırma, parola değişikliği, eşleyici erişimi reddedildi, istemci sertifikası iptal edildi, dizin listeleme reddedildi, istemci erişim lisansları aşıldı, istemci sertifikası güvenilmez veya geçersiz, istemci sertifikasının süresi doldu veya henüz geçerli değil, pasaport oturumu açılamadı, kaynak erişimi reddedildi, sonsuz derinlik reddedildi, aynı istemci ipinden çok fazla istek geldi</b>...]</p>
+
+
+    <p>> <span>BU SUNUCUDAKİ ERİŞİM İZNİNE SAHİP OLDUĞUNUZ BAZI SAYFALAR</span>: [<a asp-area="" asp-page="/Index">Hesap Makinesi</a>, <a asp-area="" asp-page="/Auth/Login">Giriş Yap</a>...]</p>
+
+        <p>> <span>İYİ GÜNLER DİLERİZ :-)</span></p>
+    
+</div>
+
+
+<script>
+    var str = document.getElementsByTagName('div')[0].innerHTML.toString();
+    var i = 0;
+    document.getElementsByTagName('div')[0].innerHTML = "";
+
+    setTimeout(function () {
+        var se = setInterval(function () {
+            i++;
+            document.getElementsByTagName('div')[0].innerHTML = str.slice(0, i) + "|";
+            if (i == str.length) {
+                clearInterval(se);
+                document.getElementsByTagName('div')[0].innerHTML = str;
+            }
+        }, 10);
+    }, 0);
+</script>

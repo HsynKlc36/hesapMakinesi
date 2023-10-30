@@ -1,0 +1,49 @@
+﻿@page
+@model HesapMakinesi.Pages.Auth.LoginModel
+@{
+    ViewData["Title"] = "Giriş";
+    var message = TempData["Message"];
+}
+
+
+<div class="content" style="background-color:#FCD7A6">
+    <div class="text">
+        Giriş
+    </div>
+    <form asp-formhelper="true" method="post">
+        
+        <div class="field">
+            <label asp-for="LoginVM.Email">Email</label>
+            <input asp-for="LoginVM.Email" type="email" class="form-control" placeholder="Email" />
+           
+        </div>
+        <span asp-validation-for="LoginVM.Email" class="text-danger"></span>
+        <div class="field">
+            <label asp-for="LoginVM.Password"> Şifre </label>         
+            <input asp-for="LoginVM.Password" type="password" class="form-control" placeholder="Şifre" />
+        </div>
+        <span asp-validation-for="LoginVM.Password" class="text-danger"></span>
+
+        <button class="btn btn-dark">Giriş Yap</button>
+        <div class="sign-up">
+            Üye değil misin?
+            <a class="btn btn-dark" asp-area="" asp-page="/Auth/Register">Kayıt Ol</a>
+
+        </div>
+        
+    </form>
+    <div class="field">
+        @if (message is not null)
+        {
+            <span  class="text-danger">@message</span>
+            
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        
+    }
+}

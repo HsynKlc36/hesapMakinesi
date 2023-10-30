@@ -1,0 +1,118 @@
+﻿@page
+@using HesapMakinesi.Models;
+@model IndexModel
+@{
+    ViewData["Title"] = "Hesap Makinesi";
+}
+
+<div class="row text-center">
+    <h1 class="display-4">Hesap Makinesine Hoşgeldiniz</h1>
+    <div class="col-md-4 " style="margin-left: 300px;">
+        <form method="post">
+            
+            <div class="form-group mb-3">
+                <label asp-for=Mathematics.Sayi1>1.Sayı</label>
+                <input type="number" asp-for=Mathematics.Sayi1 id="sayi1Input"/>              
+            </div>
+            <span asp-validation-for=Mathematics.Sayi1 class="text-danger"></span>
+
+            <div class="form-group mb-3">
+                <label asp-for=Mathematics.Sayi2>2.Sayı</label>
+                <input type="Number" asp-for=Mathematics.Sayi2 id="sayi2Input" />
+            </div>
+            <span asp-validation-for="Mathematics.Sayi2" class="text-danger"></span>
+            <div class="form-group ">
+                <button type="button"  class="btn btn-primary" onclick="islem(1)">Topla</button>
+                <button type="button" class="btn btn-primary" onclick="islem(2)">Çıkar</button>
+                <button type="submit"  class="btn btn-primary" asp-route-data="3">Çarp</button>
+                <button type="submit"  class="btn btn-primary" asp-route-data="4">Böl</button>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="mb-3">
+
+    </div>
+    <div class="row text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>işlem Id</th>
+                    <th>1.Sayı</th>
+                    <th>2.Sayı</th>
+                    <th>Sonuc</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @if (Model.FilterMath is not null)
+                {                  
+                        <tr>
+                            <td>
+                             @Model.FilterMath.Id
+                            </td>
+                            <td>
+                            @Model.FilterMath.Sayi1
+                            </td>
+                            <td>
+                            @Model.FilterMath.Sayi2
+                            </td>
+                            <td>
+                            @Model.FilterMath.Sonuc
+                            </td>
+                        </tr>                   
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" style="text-align:center;">
+                            data yok
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+
+       
+    
+</div>
+<script>
+    function islem(data) {
+        var sayi1 = document.getElementById("sayi1Input").value;
+        var sayi2 = document.getElementById("sayi2Input").value;
+        $.ajax({
+            url: '@Url.Page("/Index")' + '?data=' + data + '&sayi1=' + sayi1 + '&sayi2=' + sayi2,
+            type: 'GET',
+            contentType: 'application/json',
+            success: function (result) {
+                if (result) {
+
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+                else {
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+
+            },
+            error: function (xhr, status, error) {
+                location.reload();
+            }
+        });
+    }
+  
+</script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

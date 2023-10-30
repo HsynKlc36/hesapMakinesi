@@ -1,0 +1,52 @@
+﻿@page
+@model HesapMakinesi.Pages.Auth.RegisterModel
+@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+<div class="wrapper">
+    <div class="inner content" style="background-color:#FCD7A6">
+        <div class="row">
+            <form asp-formhelper="true" method="post" class="text">
+                <input type="hidden" asp-for="Register.Role" />
+                <input type="hidden" asp-for="Register.CreatedDate" />
+                <input type="hidden" asp-for="Register.IsActive" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <h3>Kayıt Ol</h3>
+                <div class="form-group">
+                    <div class="form-wrapper">
+                        <input asp-for="Register.UserName" type="text" placeholder="Kullanıcı Adı" class="form-control" />
+                        <span asp-validation-for="Register.UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-wrapper">
+                        <input asp-for="Register.Email" type="text" placeholder="Email" class="form-control" />
+                        <span asp-validation-for="Register.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-wrapper">
+                        <input asp-for="Register.Password" type="text" placeholder="Şifre" class="form-control" />
+                        <span asp-validation-for="Register.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-wrapper">
+                        <input asp-for="Register.RetypedPassword" type="text" placeholder="Şifre(Tekrar)" class="form-control" />
+                        <span asp-validation-for="Register.RetypedPassword" class="text-danger"></span>
+                    </div>
+                    <div class="text">
+                        @if (TempData["Message"] is not null)
+                        {
+                            <span class="text-danger">@TempData["Message"]</span>
+                        }
+                    </div>
+                </div>
+
+
+                <button class="btn btn-dark" >Kayıt Ol</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

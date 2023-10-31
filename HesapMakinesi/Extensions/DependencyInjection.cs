@@ -42,7 +42,7 @@ namespace HesapMakinesi.Extensions
 
 
             services.AddFluentValidationAutoValidation()
-              .AddFluentValidationClientsideAdapters()
+              .AddFluentValidationClientsideAdapters()//?
               .AddValidatorsFromAssemblyContaining<AuthRegisterVMValidator>();
             ValidatorOptions.Global.LanguageManager.Culture=new CultureInfo("tr");
 
@@ -50,7 +50,8 @@ namespace HesapMakinesi.Extensions
             services.AddRazorPages()
             .AddMvcOptions(options =>
             {
-            options.Filters.Add<ValidationFilter>();
+                 options.Filters.Add<ValidationFilter>();
+                options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes=true;//default Required attribute hatasından kurtarır! 
         });
 
 

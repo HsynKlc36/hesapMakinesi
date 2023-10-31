@@ -2,11 +2,13 @@
 using FluentValidation.AspNetCore;
 using FormHelper;
 using HesapMakinesi.Context;
+using HesapMakinesi.FluentFilter;
 using HesapMakinesi.FluentValidatiors.AuthValidators;
 using HesapMakinesi.Models.Enums;
 using HesapMakinesi.VM;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System.Globalization;
 using System.Reflection;
 
@@ -43,8 +45,15 @@ namespace HesapMakinesi.Extensions
               .AddFluentValidationClientsideAdapters()
               .AddValidatorsFromAssemblyContaining<AuthRegisterVMValidator>();
             ValidatorOptions.Global.LanguageManager.Culture=new CultureInfo("tr");
-            
-               
+
+            //validation filter(razor page)
+            services.AddRazorPages()
+            .AddMvcOptions(options =>
+            {
+            options.Filters.Add<ValidationFilter>();
+        });
+
+
             services.AddRazorPages().AddFormHelper();//form helper kullanabilmek için
 
             return services;

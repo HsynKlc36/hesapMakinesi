@@ -30,9 +30,7 @@ namespace HesapMakinesi.Pages.Auth
         }
         public async Task<IActionResult> OnPostAsync()
         {
-            if (ModelState.IsValid)
-            {
-
+           
                 var currentUser = await _myDbContext.Users.FirstOrDefaultAsync(u => u.Email == LoginVM.Email,CancellationToken.None);
                 
                 if (currentUser is null)
@@ -63,8 +61,7 @@ namespace HesapMakinesi.Pages.Auth
                     TempData["Message"] = "Kullanýcýya ait þifre hatalý!";
                     return Page();
                 }
-            }
-            return Page();
+           
             
         }
         //TODO:Burasý incelenecek!

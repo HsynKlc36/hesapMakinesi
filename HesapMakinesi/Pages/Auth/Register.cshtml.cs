@@ -14,10 +14,13 @@ namespace HesapMakinesi.Pages.Auth
 
         [BindProperty]
         public RegisterVM Register { get; set; }
+        
+        
         public RegisterModel(MyDbContext myDbContext,IMapper mapper)
         {
             _myDbContext = myDbContext;
             _mapper = mapper;
+
         }
         //[NonHandler]
         public void OnGet()
@@ -25,9 +28,8 @@ namespace HesapMakinesi.Pages.Auth
         }
         public async Task<IActionResult> OnPostAsync()
         {
-            //TODO:modelstate'i düzenle
-            if (ModelState.IsValid)
-            {
+            
+          
                 var currentUser=CheckUser(Register.Email);
                 if (currentUser is not null) {
                     TempData["Message"] = "Bu Email de zaten bir kullanýcý var";
@@ -38,8 +40,7 @@ namespace HesapMakinesi.Pages.Auth
                 _myDbContext.Users.Add(user);
                 _myDbContext.SaveChanges();
                 return RedirectToPage("/Auth/Login");
-            }
-            return Page();
+           
         }
         private User? CheckUser(string email) { 
            var user =_myDbContext.Users.Where(x=>x.Email==email).FirstOrDefault();

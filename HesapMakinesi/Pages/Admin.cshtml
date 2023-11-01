@@ -5,6 +5,7 @@
 @model HesapMakinesi.Pages.AdminModel
 @{
     string userName = HttpContext.User.FindFirstValue(ClaimTypes.Name);
+    Layout = "_Layout";
 }
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.37/dist/sweetalert2.min.css" />
 <h1>Hello This is @userName Panel</h1>
@@ -67,4 +68,4 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="~/limonte-sweetalert2/sweetalert2.all.js"></script>
 <script src="~/limonte-sweetalert2/sweetalert2.all.min.js"></script>
-<script src="~/js/sweetalert.js"></script>
+<script src="~/js/deleted.js"></script>

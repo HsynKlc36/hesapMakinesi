@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using Serilog;
 using System.Security.Claims;
 
 namespace HesapMakinesi.Pages
@@ -15,12 +16,12 @@ namespace HesapMakinesi.Pages
     public class IndexModel : PageModel
     {
         private readonly MyDbContext _dbContext;
+        readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(MyDbContext dbContext)
+        public IndexModel(MyDbContext dbContext, ILogger<IndexModel> logger)
         {
             _dbContext = dbContext;
-           
-
+            _logger = logger;
         }
         public string? UserId { get; set; }
         public Mathematics? FilterMath { get; set; } 
@@ -30,30 +31,36 @@ namespace HesapMakinesi.Pages
 
         public void OnGet(int? data, double sayi1, double sayi2)
         {
+            try {
+                GetUserId();
+                LoadMathListViewData();
 
-            GetUserId();
-            LoadMathListViewData();
-            
-            
-            if (data is not null)
+
+                if (data is not null)
+                {
+                    double sonuc;
+                    Mathematics = new Mathematics();
+                    if (data == (int)Operation.plus)
+                    {
+                        sonuc = Mathematics.Topla(sayi1, sayi2);
+                    }
+                    else
+                    {
+                        sonuc = Mathematics.Cıkar(sayi1, sayi2);
+                    }
+                    Mathematics.Sonuc = sonuc;
+                    Mathematics.Sayi1 = sayi1;
+                    Mathematics.Sayi2 = sayi2;
+                    Mathematics.UserId = Guid.Parse(UserId);
+                    _dbContext.Mathematics.Add(Mathematics);
+                    _dbContext.SaveChanges();
+                    _logger.LogInformation("Mathematics added");
+                }
+            }catch (Exception )
             {
-                double sonuc;
-                Mathematics = new Mathematics();
-                if (data == (int)Operation.plus)
-                {
-                    sonuc = Mathematics.Topla(sayi1, sayi2);
-                }
-                else
-                {
-                    sonuc = Mathematics.Cıkar(sayi1, sayi2);
-                }
-                Mathematics.Sonuc = sonuc;
-                Mathematics.Sayi1 = sayi1;
-                Mathematics.Sayi2 = sayi2;
-                Mathematics.UserId = Guid.Parse(UserId);
-                _dbContext.Mathematics.Add(Mathematics);
-                _dbContext.SaveChanges();
+                _logger.LogError("Mathematics Added Failed");
             }
+            
 
 
 

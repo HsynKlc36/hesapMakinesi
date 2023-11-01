@@ -10,6 +10,7 @@ namespace HesapMakinesi.FluentFilter
     {
         public async Task OnPageHandlerExecutionAsync(PageHandlerExecutingContext context, PageHandlerExecutionDelegate next)
         {
+
             if (!context.ModelState.IsValid)
             {
                 var errors = context.ModelState

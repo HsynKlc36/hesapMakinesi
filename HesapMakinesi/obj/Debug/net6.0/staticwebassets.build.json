@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R41GFu4ktrgK72f0KxpCmZCBPumHoHHI+/yNPVLY9mY=",
+  "Hash": "10WMdO+aqD43BQ26zsNbOxsRMhH47H6g6KszLKa3fDg=",
   "Source": "HesapMakinesi",
   "BasePath": "_content/HesapMakinesi",
   "Mode": "Default",
@@ -85,6 +85,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\deleted.js",
+      "SourceId": "HesapMakinesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\",
+      "BasePath": "_content/HesapMakinesi",
+      "RelativePath": "js/deleted.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\deleted.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\logout.js",
+      "SourceId": "HesapMakinesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\",
+      "BasePath": "_content/HesapMakinesi",
+      "RelativePath": "js/logout.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\logout.js"
+    },
+    {
       "Identity": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\site.js",
       "SourceId": "HesapMakinesi",
       "SourceType": "Discovered",
@@ -100,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\sweetalert.js",
-      "SourceId": "HesapMakinesi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\",
-      "BasePath": "_content/HesapMakinesi",
-      "RelativePath": "js/sweetalert.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\sweetalert.js"
     },
     {
       "Identity": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

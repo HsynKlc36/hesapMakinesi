@@ -64,12 +64,12 @@ namespace HesapMakinesi.Pages.Auth
            
             
         }
-        //TODO:Burasý incelenecek!
-        public async Task<IActionResult> OnPostLogoutAsync() {// a tagýyla yönlendirirsem handler ile yakalayýp buraya düþer yani get olan metotlara fakat button submit olursa post olan metotlara düþer Handler ile yakalasanda
-            await HttpContext.SignOutAsync();
-            HttpContext.Response.Cookies.Delete("HesapMakinesi");//cookie'yi tamamen tarayýcýdan siler!
-            return RedirectToPage("/Index");
-        }
+        
+        //public async Task<IActionResult> OnPostLogoutAsync() {
+        //    await HttpContext.SignOutAsync();
+        //    HttpContext.Response.Cookies.Delete("HesapMakinesi");//cookie'yi tamamen tarayýcýdan siler!
+        //    return RedirectToPage("/Index");
+        //}
       
         private bool VerifyPassword(string password, string hashedPassword)
         {

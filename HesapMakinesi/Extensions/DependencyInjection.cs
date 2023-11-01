@@ -36,23 +36,24 @@ namespace HesapMakinesi.Extensions
                 options.AddPolicy("RequireGuestRole", policy => policy.RequireRole(Role.Guest.ToString()));
                 options.AddPolicy("RequireAdminOrGuestRole", policy => policy.RequireRole(Role.Admin.ToString(), Role.Guest.ToString()));
             });
+            //automapper
             services.AddAutoMapper(
                Assembly.GetExecutingAssembly(),
                typeof(RegisterVM).Assembly);
 
 
             services.AddFluentValidationAutoValidation()
-              .AddFluentValidationClientsideAdapters()//?
+              .AddFluentValidationClientsideAdapters()
               .AddValidatorsFromAssemblyContaining<AuthRegisterVMValidator>();
-            ValidatorOptions.Global.LanguageManager.Culture=new CultureInfo("tr");
+            ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("tr");
 
             //validation filter(razor page)
             services.AddRazorPages()
             .AddMvcOptions(options =>
             {
-                 options.Filters.Add<ValidationFilter>();
-                options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes=true;//default Required attribute hatasından kurtarır! 
-        });
+                options.Filters.Add<ValidationFilter>();
+               options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;//default Required attribute hatasından kurtarır! 
+            });
 
 
             services.AddRazorPages().AddFormHelper();//form helper kullanabilmek için

@@ -1,11 +1,14 @@
-﻿
+﻿@using System.Security.Claims;
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HesapMakinesi</title>
+    
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HesapMakinesi.styles.css" asp-append-version="true" />
@@ -33,11 +36,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Auth/Register">Kayıt ol</a>
                         </li>
-                        <li class="nav-item">
-                            <form method="post">
-                                <button asp-area="" asp-page-handler="Logout" asp-page="/Auth/Login">Çıkış Yap</button>
-                            </form>
-                            
+                        <li class="nav-item">                           
+                                <button class="btn btn-dark mt-1" asp-area="" id="logoutButton">Çıkış Yap</button>                          
                         </li>
                      
                     </ul>
@@ -54,13 +54,14 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - HesapMakinesi - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2023 - HesapMakinesi 
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/logout.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

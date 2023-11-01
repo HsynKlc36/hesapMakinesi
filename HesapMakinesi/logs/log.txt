@@ -1,0 +1,1278 @@
+2023-11-01 10:44:55.815 +03:00 [INF] User profile is available. Using 'C:\Users\Kainat Holding\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-01 10:44:57.526 +03:00 [INF] Now listening on: https://localhost:7059
+2023-11-01 10:44:57.527 +03:00 [INF] Now listening on: http://localhost:5222
+2023-11-01 10:44:57.530 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 10:44:57.530 +03:00 [INF] Hosting environment: Development
+2023-11-01 10:44:57.530 +03:00 [INF] Content root path: C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\
+2023-11-01 10:44:58.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/ - -
+2023-11-01 10:45:06.834 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Guest)
+2023-11-01 10:45:06.848 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-01 10:45:06.869 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - -
+2023-11-01 10:45:06.869 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/ - - - 302 0 - 8321.9203ms
+2023-11-01 10:45:07.041 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 10:45:07.168 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 10:45:07.207 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnGet - ModelState is "Valid"
+2023-11-01 10:45:07.213 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 10:45:07.217 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 10:45:07.217 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 10:45:07.622 +03:00 [INF] Executed page /Auth/Login in 449.2227ms
+2023-11-01 10:45:07.624 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 10:45:07.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc - -
+2023-11-01 10:45:07.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-11-01 10:45:07.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 790.6987ms
+2023-11-01 10:45:07.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-11-01 10:45:07.665 +03:00 [INF] The file /css/site.css was not modified
+2023-11-01 10:45:07.665 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-11-01 10:45:07.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 6.2343ms
+2023-11-01 10:45:07.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 6.5704ms
+2023-11-01 10:45:07.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/lib/jquery/dist/jquery.min.js - -
+2023-11-01 10:45:07.668 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-11-01 10:45:07.668 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-11-01 10:45:07.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 1.5078ms
+2023-11-01 10:45:07.669 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-11-01 10:45:07.669 +03:00 [INF] Sending file. Request path: '/HesapMakinesi.styles.css'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\obj\Debug\net6.0\scopedcss\bundle\HesapMakinesi.styles.css'
+2023-11-01 10:45:07.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 1.5410ms
+2023-11-01 10:45:07.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc - - - 200 1130 text/css 11.0196ms
+2023-11-01 10:45:07.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-11-01 10:45:07.672 +03:00 [INF] The file /js/site.js was not modified
+2023-11-01 10:45:07.672 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 1.0544ms
+2023-11-01 10:45:07.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/lib/jquery-validation/dist/jquery.validate.min.js - -
+2023-11-01 10:45:07.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 10:45:07.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2023-11-01 10:45:07.674 +03:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2023-11-01 10:45:07.675 +03:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2023-11-01 10:45:07.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/lib/jquery-validation/dist/jquery.validate.min.js - - - 304 - application/javascript 1.7076ms
+2023-11-01 10:45:07.676 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 304 - application/javascript 2.1226ms
+2023-11-01 10:45:07.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 4.7661ms
+2023-11-01 10:45:07.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 10:45:07.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7702ms
+2023-11-01 10:45:07.722 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 10:45:07.742 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 10:45:07.743 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 21.0890ms
+2023-11-01 10:46:28.113 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242
+2023-11-01 10:46:28.119 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 10:46:28.120 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 10:46:28.176 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnPostAsync - ModelState is "Valid"
+2023-11-01 10:46:28.193 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 10:46:28.308 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[@__LoginVM_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedDate`, `u`.`DeletedDate`, `u`.`Email`, `u`.`IsActive`, `u`.`Password`, `u`.`Role`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__LoginVM_Email_0
+LIMIT 1
+2023-11-01 10:46:28.462 +03:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-01 10:46:28.465 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2023-11-01 10:46:28.466 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2023-11-01 10:46:28.466 +03:00 [INF] Executed page /Auth/Login in 345.6272ms
+2023-11-01 10:46:28.467 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 10:46:28.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 10:46:28.474 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242 - 302 0 - 361.7810ms
+2023-11-01 10:46:28.476 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 10:46:28.485 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 10:46:28.488 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 10:46:28.502 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 10:46:28.548 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 10:46:28.550 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 10:46:28.551 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 10:46:28.551 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 10:46:28.673 +03:00 [INF] Executed page /Index in 187.8785ms
+2023-11-01 10:46:28.675 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 10:46:28.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 210.0901ms
+2023-11-01 10:46:28.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/js/logout.js - -
+2023-11-01 10:46:28.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 10:46:28.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 10:46:28.685 +03:00 [INF] The file /js/logout.js was not modified
+2023-11-01 10:46:28.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 1.1896ms
+2023-11-01 10:46:28.686 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/js/logout.js - - - 304 - application/javascript 2.2789ms
+2023-11-01 10:46:28.688 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.6750ms
+2023-11-01 10:46:28.719 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 10:46:28.722 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 10:46:28.723 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 3.8687ms
+2023-11-01 12:37:29.447 +03:00 [INF] User profile is available. Using 'C:\Users\Kainat Holding\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-01 12:37:30.852 +03:00 [INF] Now listening on: https://localhost:7059
+2023-11-01 12:37:30.852 +03:00 [INF] Now listening on: http://localhost:5222
+2023-11-01 12:37:30.854 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:37:30.855 +03:00 [INF] Hosting environment: Development
+2023-11-01 12:37:30.855 +03:00 [INF] Content root path: C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\
+2023-11-01 12:37:31.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/ - -
+2023-11-01 12:37:35.345 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Guest)
+2023-11-01 12:37:35.358 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-01 12:37:35.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/ - - - 302 0 - 3668.7542ms
+2023-11-01 12:37:35.375 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - -
+2023-11-01 12:37:35.546 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 12:37:35.640 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 12:37:35.678 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnGet - ModelState is "Valid"
+2023-11-01 12:37:35.684 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:37:35.687 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:37:35.688 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:37:36.051 +03:00 [INF] Executed page /Auth/Login in 406.0655ms
+2023-11-01 12:37:36.053 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 12:37:36.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 695.3938ms
+2023-11-01 12:37:36.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc - -
+2023-11-01 12:37:36.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:37:36.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:37:36.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 7.8615ms
+2023-11-01 12:37:36.082 +03:00 [INF] The file /HesapMakinesi.styles.css was not modified
+2023-11-01 12:37:36.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc - - - 304 - text/css 11.1451ms
+2023-11-01 12:37:36.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.7680ms
+2023-11-01 12:37:36.139 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:37:36.154 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:37:36.155 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 16.2127ms
+2023-11-01 12:37:43.013 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242
+2023-11-01 12:37:43.016 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 12:37:43.017 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 12:37:43.065 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnPostAsync - ModelState is "Valid"
+2023-11-01 12:37:43.081 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:37:43.190 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__LoginVM_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedDate`, `u`.`DeletedDate`, `u`.`Email`, `u`.`IsActive`, `u`.`Password`, `u`.`Role`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__LoginVM_Email_0
+LIMIT 1
+2023-11-01 12:37:43.341 +03:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-01 12:37:43.343 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2023-11-01 12:37:43.344 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2023-11-01 12:37:43.344 +03:00 [INF] Executed page /Auth/Login in 326.8525ms
+2023-11-01 12:37:43.345 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 12:37:43.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 12:37:43.349 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242 - 302 0 - 336.6647ms
+2023-11-01 12:37:43.352 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:37:43.361 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:37:43.365 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:37:43.373 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:37:43.414 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:37:52.390 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:37:52.392 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:37:52.393 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:37:56.466 +03:00 [INF] Executed page /Index in 13103.5625ms
+2023-11-01 12:37:56.467 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 12:37:56.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 13121.9974ms
+2023-11-01 12:37:56.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:37:56.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/js/logout.js - -
+2023-11-01 12:37:56.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:37:56.473 +03:00 [INF] The file /js/logout.js was not modified
+2023-11-01 12:37:56.476 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 2.3986ms
+2023-11-01 12:37:56.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/js/logout.js - - - 304 - application/javascript 4.8875ms
+2023-11-01 12:37:56.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.0393ms
+2023-11-01 12:37:56.489 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:37:56.491 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:37:56.492 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 2.8246ms
+2023-11-01 12:38:06.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index?data=1&sayi1=1&sayi2=1 application/json -
+2023-11-01 12:38:06.351 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:38:06.352 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:38:06.355 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:38:06.388 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:38:06.393 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:38:06.509 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Mathematics` (`Id`, `CreatedDate`, `Sayi1`, `Sayi2`, `Sonuc`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-01 12:38:06.525 +03:00 [INF] Mathematics added
+2023-11-01 12:38:46.271 +03:00 [INF] User profile is available. Using 'C:\Users\Kainat Holding\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-01 12:38:47.684 +03:00 [INF] Now listening on: https://localhost:7059
+2023-11-01 12:38:47.684 +03:00 [INF] Now listening on: http://localhost:5222
+2023-11-01 12:38:47.687 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:38:47.687 +03:00 [INF] Hosting environment: Development
+2023-11-01 12:38:47.687 +03:00 [INF] Content root path: C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\
+2023-11-01 12:38:48.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/ - -
+2023-11-01 12:38:52.084 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Guest)
+2023-11-01 12:38:52.096 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-01 12:38:52.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/ - - - 302 0 - 3541.7754ms
+2023-11-01 12:38:52.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - -
+2023-11-01 12:38:52.254 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 12:38:52.346 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 12:38:52.382 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnGet - ModelState is "Valid"
+2023-11-01 12:38:52.388 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:38:52.391 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:38:52.392 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:38:52.752 +03:00 [INF] Executed page /Auth/Login in 401.5728ms
+2023-11-01 12:38:52.755 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 12:38:52.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 660.4007ms
+2023-11-01 12:38:52.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:38:52.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:38:52.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 4.9494ms
+2023-11-01 12:38:52.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.1027ms
+2023-11-01 12:38:52.835 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:38:52.851 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:38:52.852 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 17.2638ms
+2023-11-01 12:39:09.000 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242
+2023-11-01 12:39:09.003 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 12:39:09.004 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 12:39:09.056 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnPostAsync - ModelState is "Valid"
+2023-11-01 12:39:09.074 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:39:09.185 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__LoginVM_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedDate`, `u`.`DeletedDate`, `u`.`Email`, `u`.`IsActive`, `u`.`Password`, `u`.`Role`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__LoginVM_Email_0
+LIMIT 1
+2023-11-01 12:39:09.335 +03:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-01 12:39:09.337 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2023-11-01 12:39:09.337 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2023-11-01 12:39:09.338 +03:00 [INF] Executed page /Auth/Login in 333.49ms
+2023-11-01 12:39:09.338 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 12:39:09.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 12:39:09.343 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242 - 302 0 - 343.3675ms
+2023-11-01 12:39:09.345 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:39:09.355 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:39:09.358 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:39:09.365 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:39:09.407 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:39:10.945 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:39:10.949 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:39:10.949 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:39:11.075 +03:00 [INF] Executed page /Index in 1719.7117ms
+2023-11-01 12:39:11.076 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 12:39:11.082 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 1741.1342ms
+2023-11-01 12:39:11.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:39:11.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:39:11.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 0.8628ms
+2023-11-01 12:39:11.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.5706ms
+2023-11-01 12:39:11.101 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:39:11.103 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:39:11.104 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 3.0004ms
+2023-11-01 12:39:16.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index?data=1&sayi1=1&sayi2=1 application/json -
+2023-11-01 12:39:16.024 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:39:16.024 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:39:16.027 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:39:16.059 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:39:16.064 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:39:16.171 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Mathematics` (`Id`, `CreatedDate`, `Sayi1`, `Sayi2`, `Sonuc`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-01 12:39:16.186 +03:00 [INF] Mathematics added
+2023-11-01 12:40:26.736 +03:00 [INF] User profile is available. Using 'C:\Users\Kainat Holding\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-01 12:40:28.116 +03:00 [INF] Now listening on: https://localhost:7059
+2023-11-01 12:40:28.116 +03:00 [INF] Now listening on: http://localhost:5222
+2023-11-01 12:40:28.119 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:40:28.119 +03:00 [INF] Hosting environment: Development
+2023-11-01 12:40:28.119 +03:00 [INF] Content root path: C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\
+2023-11-01 12:40:28.826 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/ - -
+2023-11-01 12:40:32.205 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Guest)
+2023-11-01 12:40:32.217 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-01 12:40:32.232 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/ - - - 302 0 - 3408.4565ms
+2023-11-01 12:40:32.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - -
+2023-11-01 12:40:32.424 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 12:40:32.529 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 12:40:32.567 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnGet - ModelState is "Valid"
+2023-11-01 12:40:32.573 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:40:32.576 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:40:32.576 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:40:32.941 +03:00 [INF] Executed page /Auth/Login in 407.2239ms
+2023-11-01 12:40:32.943 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 12:40:32.962 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 728.5259ms
+2023-11-01 12:40:32.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:40:32.964 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:40:32.969 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 6.0511ms
+2023-11-01 12:40:32.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.7503ms
+2023-11-01 12:40:33.025 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:40:33.040 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:40:33.041 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 15.7911ms
+2023-11-01 12:40:52.765 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242
+2023-11-01 12:40:52.768 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 12:40:52.769 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 12:40:52.820 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnPostAsync - ModelState is "Valid"
+2023-11-01 12:40:52.845 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:40:52.951 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__LoginVM_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedDate`, `u`.`DeletedDate`, `u`.`Email`, `u`.`IsActive`, `u`.`Password`, `u`.`Role`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__LoginVM_Email_0
+LIMIT 1
+2023-11-01 12:40:53.104 +03:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-01 12:40:53.106 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2023-11-01 12:40:53.106 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2023-11-01 12:40:53.107 +03:00 [INF] Executed page /Auth/Login in 337.4917ms
+2023-11-01 12:40:53.107 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 12:40:53.109 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 12:40:53.111 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242 - 302 0 - 346.5984ms
+2023-11-01 12:40:53.113 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:40:53.122 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:40:53.125 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:40:53.132 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:40:53.176 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:40:55.729 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:40:55.730 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:40:55.730 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:40:55.880 +03:00 [INF] Executed page /Index in 2757.8024ms
+2023-11-01 12:40:55.881 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 12:40:55.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 2774.4798ms
+2023-11-01 12:40:55.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:40:55.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:40:55.889 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 1.8279ms
+2023-11-01 12:40:55.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.6843ms
+2023-11-01 12:40:55.902 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:40:55.904 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:40:55.905 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 2.7075ms
+2023-11-01 12:41:00.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index?data=1&sayi1=1&sayi2=2 application/json -
+2023-11-01 12:41:00.609 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:41:00.610 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:41:00.614 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:41:00.646 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:41:00.651 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:41:00.762 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Mathematics` (`Id`, `CreatedDate`, `Sayi1`, `Sayi2`, `Sonuc`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-01 12:41:00.807 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HesapMakinesi.Context.MyDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`hesapmakinesidb`.`mathematics`, CONSTRAINT `FK_Mathematics_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `users` (`Id`) ON DELETE CASCADE)
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 44
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 127
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 456
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 330
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in /_/src/MySqlConnector/MySqlCommand.cs:line 272
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`hesapmakinesidb`.`mathematics`, CONSTRAINT `FK_Mathematics_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `users` (`Id`) ON DELETE CASCADE)
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 44
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 127
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 456
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 330
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in /_/src/MySqlConnector/MySqlCommand.cs:line 272
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-01 12:41:00.831 +03:00 [ERR] Mathematics Added Failed
+2023-11-01 12:41:14.068 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:41:14.070 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:41:14.071 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:41:14.080 +03:00 [INF] Executed page /Index in 13469.823ms
+2023-11-01 12:41:14.081 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 12:41:14.082 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index?data=1&sayi1=1&sayi2=2 application/json - - 200 - text/html;+charset=utf-8 13474.2355ms
+2023-11-01 12:41:14.090 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 12:41:14.091 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 12:41:14.092 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 12:41:14.093 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 12:41:14.095 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 12:41:14.097 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 12:41:18.100 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 12:41:18.102 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 12:41:18.102 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 12:41:19.811 +03:00 [INF] Executed page /Index in 5717.9189ms
+2023-11-01 12:41:19.811 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 12:41:19.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 5722.9025ms
+2023-11-01 12:41:19.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 12:41:19.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 12:41:19.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 0.7175ms
+2023-11-01 12:41:19.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.1651ms
+2023-11-01 12:41:19.829 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 12:41:19.831 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 12:41:19.831 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 2.7423ms
+2023-11-01 12:41:19.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/favicon.ico - -
+2023-11-01 12:41:19.881 +03:00 [INF] The file /favicon.ico was not modified
+2023-11-01 12:41:19.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/favicon.ico - - - 304 - image/x-icon 4.0444ms
+2023-11-01 13:13:45.086 +03:00 [INF] User profile is available. Using 'C:\Users\Kainat Holding\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-01 13:13:46.681 +03:00 [INF] Now listening on: https://localhost:7059
+2023-11-01 13:13:46.682 +03:00 [INF] Now listening on: http://localhost:5222
+2023-11-01 13:13:46.684 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 13:13:46.684 +03:00 [INF] Hosting environment: Development
+2023-11-01 13:13:46.685 +03:00 [INF] Content root path: C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\
+2023-11-01 13:13:47.593 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/ - -
+2023-11-01 13:13:47.638 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7059
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-11-01 13:13:55.649 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Guest)
+2023-11-01 13:13:55.661 +03:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-11-01 13:13:55.663 +03:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:7059/Auth/Login?ReturnUrl=%2F
+2023-11-01 13:13:55.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - -
+2023-11-01 13:13:55.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/ - - - 302 0 - 8089.8689ms
+2023-11-01 13:13:55.681 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Auth/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7059
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-11-01 13:13:55.816 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 13:13:55.933 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 13:13:55.972 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnGet - ModelState is "Valid"
+2023-11-01 13:13:55.977 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 13:13:55.980 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 13:13:55.981 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 13:13:56.256 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2023-11-01 13:13:56.328 +03:00 [INF] Executed page /Auth/Login in 389.9678ms
+2023-11-01 13:13:56.331 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 13:13:56.335 +03:00 [INF] ResponseBody: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giri&#x15F; - HesapMakinesi</title>
+
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/Index">HesapMakinesi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Index">Hesap Makinesi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Admin">Admin Sayfası</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Login">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Register">Kayıt ol</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+            
+
+<div class="content" style="background-color:#a2996454">
+    <div class="text-center pt-2">
+        <h5>Giriş</h5>
+    </div>
+    <form method="post" method="post" formhelper="" dataType="FormData" redirectDelay="1500" toastrPositionClass="formhelper-toast-top-right" enableButtonAfterSuccess="False" resetFormAfterSuccess="True" checkTheFormFieldsMessage="Check the form fields.">
+        
+        <div class="field mb-2">
+            <label for="LoginVM_Email">Email</label>
+            <input type="text" class="form-control" placeholder="Email" data-val="true" data-val-regex="Email format&#x131;nda giri&#x15F; yap&#x131;n&#x131;z." data-val-regex-pattern="^[\w-\.]&#x2B;@([\w-]&#x2B;\.)&#x2B;[\w-]{2,4}$" data-val-required="Email alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz." id="LoginVM_Email" name="LoginVM.Email" value="" />
+           
+        </div>
+        <span class="text-danger field-validation-valid" data-valmsg-for="LoginVM.Email" data-valmsg-replace="true"></span>
+        <div class="field">
+            <label for="LoginVM_Password"> Şifre </label>         
+            <input type="password" class="form-control" placeholder="Şifre" data-val="true" data-val-regex="&#x15E;ifre en az 4 karakter uzunlu&#x11F;unda olmal&#x131; ve en az bir b&#xFC;y&#xFC;k harf, bir k&#xFC;&#xE7;&#xFC;k harf ve bir rakam i&#xE7;ermelidir." data-val-regex-pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{4,}$" data-val-required="&#x15E;ifre alan&#x131; bo&#x15F; olamaz." id="LoginVM_Password" name="LoginVM.Password" />
+        </div>
+        <span class="text-danger field-validation-valid" data-valmsg-for="LoginVM.Password" data-valmsg-replace="true"></span>
+
+        <button class="btn btn-dark mt-2">Giriş Yap</button>
+        <div class="sign-up">
+            Üye değil misin?
+            <a class="btn btn-dark mt-2 mb-2" href="/Auth/Register">Kayıt Ol</a>
+
+        </div>
+        
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AMr9uuwdPdPoBdUuhBYIchy38VX21gbfGU3sy-DNHiSF6sOawIaglv78XUCUjqMeMZ_NvgWck5AeKcJEYiNR21GSK1OhT3IR63bYjc6XlfZ_dC6LldCjiYCUrba2tlFqcY0O8J3975r_lR4EKc8CAQ" /></form>
+    <div class="field">
+    </div>
+</div>
+
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - HesapMakinesi
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>
+
+2023-11-01 13:13:56.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Auth/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 673.8175ms
+2023-11-01 13:13:56.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 13:13:56.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc - -
+2023-11-01 13:13:56.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 13:13:56.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 4.0325ms
+2023-11-01 13:13:56.366 +03:00 [INF] Sending file. Request path: '/HesapMakinesi.styles.css'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\obj\Debug\net6.0\scopedcss\bundle\HesapMakinesi.styles.css'
+2023-11-01 13:13:56.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc - - - 200 1130 text/css 12.3032ms
+2023-11-01 13:13:56.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.1589ms
+2023-11-01 13:13:56.421 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 13:13:56.430 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 13:13:56.431 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 10.5102ms
+2023-11-01 13:14:13.128 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242
+2023-11-01 13:14:13.130 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Auth/Login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7059
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 242
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-11-01 13:14:13.133 +03:00 [INF] Executing endpoint '/Auth/Login'
+2023-11-01 13:14:13.134 +03:00 [INF] Route matched with {page = "/Auth/Login"}. Executing page /Auth/Login
+2023-11-01 13:14:13.190 +03:00 [INF] Executing handler method HesapMakinesi.Pages.Auth.LoginModel.OnPostAsync - ModelState is "Valid"
+2023-11-01 13:14:13.205 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 13:14:13.312 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__LoginVM_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CreatedDate`, `u`.`DeletedDate`, `u`.`Email`, `u`.`IsActive`, `u`.`Password`, `u`.`Role`, `u`.`UserName`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__LoginVM_Email_0
+LIMIT 1
+2023-11-01 13:14:13.476 +03:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-11-01 13:14:13.478 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2023-11-01 13:14:13.479 +03:00 [INF] Executing RedirectToPageResult, redirecting to /Index.
+2023-11-01 13:14:13.479 +03:00 [INF] Executed page /Auth/Login in 345.1452ms
+2023-11-01 13:14:13.480 +03:00 [INF] Executed endpoint '/Auth/Login'
+2023-11-01 13:14:13.480 +03:00 [INF] Response:
+StatusCode: 302
+Cache-Control: [Redacted]
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Location: /Index
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+2023-11-01 13:14:13.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 13:14:13.483 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7059
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-11-01 13:14:13.484 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7059/Auth/Login?ReturnUrl=%2F application/x-www-form-urlencoded 242 - 302 0 - 356.2413ms
+2023-11-01 13:14:13.487 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 13:14:13.495 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 13:14:13.498 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 13:14:13.506 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 13:14:13.548 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 13:14:17.210 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 13:14:17.213 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 13:14:17.214 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 13:14:17.337 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-11-01 13:14:17.340 +03:00 [INF] Executed page /Index in 3844.8408ms
+2023-11-01 13:14:17.342 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 13:14:17.343 +03:00 [INF] ResponseBody: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi - HesapMakinesi</title>
+    
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/Index">HesapMakinesi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Index">Hesap Makinesi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Admin">Admin Sayfası</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Login">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Register">Kayıt ol</a>
+                        </li>
+                        <li class="nav-item">                           
+                                <button class="btn btn-dark mt-1" id="logoutButton" formaction="/Index">Çıkış Yap</button>                          
+                        </li>
+                     
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+          
+            
+<div class="row text-center">
+    <h1 class="display-4">Hesap Makinesine Hoşgeldiniz</h1>
+    <div class="col-md-4 " style="margin-left: 300px;">
+        <form method="post">
+            
+            <div class="form-group mb-3">
+                <label for="Mathematics_Sayi1">1.Sayı</label>
+                <input type="number" id="sayi1Input" data-val="true" data-val-number="The field Sayi1 must be a number." data-val-required="Say&#x131; 1 alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz" name="Mathematics.Sayi1" value="" />              
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Mathematics.Sayi1" data-valmsg-replace="true"></span>
+
+            <div class="form-group mb-3">
+                <label for="Mathematics_Sayi2">2.Sayı</label>
+                <input type="Number" id="sayi2Input" data-val="true" data-val-number="The field Sayi2 must be a number." data-val-required="Say&#x131; 2 alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz" name="Mathematics.Sayi2" value="" />
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Mathematics.Sayi2" data-valmsg-replace="true"></span>
+            <div class="form-group ">
+                <button type="button"  class="btn btn-primary" onclick="islem(1)">Topla</button>
+                <button type="button" class="btn btn-primary" onclick="islem(2)">Çıkar</button>
+                <button type="submit" class="btn btn-primary" formaction="/Index?data=3">Çarp</button>
+                <button type="submit" class="btn btn-primary" formaction="/Index?data=4">Böl</button>
+            </div>
+
+
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AMr9uuwdPdPoBdUuhBYIcjwbLA666B3brdEuJ2FcSa9ZJ9bk9aY_YdFqaL-sZp5aUvRpyBwOPDLFk3e5nbW2AK4uLPkmRJn-XWWoyilGR5-KQ2JTWkBP8wb7z5aLcNFVb3ZUCc9oERzXIse7hJZjY5HVatkg3KCOeauGd1Eqv5WZNQb-sGyHgE6xw32W4k3cw" /></form>
+    </div>
+    <div class="mb-3">
+
+    </div>
+    <div class="row text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>işlem Id</th>
+                    <th>1.Sayı</th>
+                    <th>2.Sayı</th>
+                    <th>Sonuc</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                        <tr>
+                            <td>
+                             08dbdabe-6a0b-488e-8649-4979f27d288c
+                            </td>
+                            <td>
+                            0
+                            </td>
+                            <td>
+                            1
+                            </td>
+                            <td>
+                            
+                            </td>
+                        </tr>                   
+            </tbody>
+        </table>
+
+
+    </div>
+
+       
+    
+</div>
+<script>
+    function islem(data) {
+        var sayi1 = document.getElementById("sayi1Input").value;
+        var sayi2 = document.getElementById("sayi2Input").value;
+        $.ajax({
+            url: '/Index' + '?data=' + data + '&sayi1=' + sayi1 + '&sayi2=' + sayi2,
+            type: 'GET',
+            contentType: 'application/json',
+            success: function (result) {
+                if (result) {
+
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+                else {
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+
+            },
+            error: function (xhr, status, error) {
+                location.reload();
+            }
+        });
+    }
+  
+</script>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - HesapMakinesi 
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/logout.js"></script>
+
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>
+2023-11-01 13:14:17.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 3863.7823ms
+2023-11-01 13:14:17.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 13:14:17.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 13:14:17.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 1.6655ms
+2023-11-01 13:14:17.353 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9499ms
+2023-11-01 13:14:17.364 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 13:14:17.366 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 13:14:17.367 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 2.8355ms
+2023-11-01 13:14:46.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index?data=1&sayi1=2&sayi2=3 application/json -
+2023-11-01 13:14:46.188 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Index
+Accept: */*
+Host: localhost:7059
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-11-01 13:14:46.190 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 13:14:46.190 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 13:14:46.193 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 13:14:46.225 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 13:14:46.230 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 13:14:46.335 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Mathematics` (`Id`, `CreatedDate`, `Sayi1`, `Sayi2`, `Sonuc`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-01 13:14:46.351 +03:00 [INF] Mathematics added
+2023-11-01 13:14:46.351 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 13:14:46.352 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 13:14:46.352 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 13:14:46.354 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-11-01 13:14:46.355 +03:00 [INF] Executed page /Index in 163.9192ms
+2023-11-01 13:14:46.355 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 13:14:46.355 +03:00 [INF] RequestBody: 
+2023-11-01 13:14:46.356 +03:00 [INF] ResponseBody: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi - HesapMakinesi</title>
+    
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/Index">HesapMakinesi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Index">Hesap Makinesi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Admin">Admin Sayfası</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Login">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Register">Kayıt ol</a>
+                        </li>
+                        <li class="nav-item">                           
+                                <button class="btn btn-dark mt-1" id="logoutButton" formaction="/Index">Çıkış Yap</button>                          
+                        </li>
+                     
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+          
+            
+<div class="row text-center">
+    <h1 class="display-4">Hesap Makinesine Hoşgeldiniz</h1>
+    <div class="col-md-4 " style="margin-left: 300px;">
+        <form method="post">
+            
+            <div class="form-group mb-3">
+                <label for="Mathematics_Sayi1">1.Sayı</label>
+                <input type="number" id="sayi1Input" data-val="true" data-val-number="The field Sayi1 must be a number." data-val-required="Say&#x131; 1 alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz" name="Mathematics.Sayi1" value="2" />              
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Mathematics.Sayi1" data-valmsg-replace="true"></span>
+
+            <div class="form-group mb-3">
+                <label for="Mathematics_Sayi2">2.Sayı</label>
+                <input type="Number" id="sayi2Input" data-val="true" data-val-number="The field Sayi2 must be a number." data-val-required="Say&#x131; 2 alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz" name="Mathematics.Sayi2" value="3" />
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Mathematics.Sayi2" data-valmsg-replace="true"></span>
+            <div class="form-group ">
+                <button type="button"  class="btn btn-primary" onclick="islem(1)">Topla</button>
+                <button type="button" class="btn btn-primary" onclick="islem(2)">Çıkar</button>
+                <button type="submit" class="btn btn-primary" formaction="/Index?data=3">Çarp</button>
+                <button type="submit" class="btn btn-primary" formaction="/Index?data=4">Böl</button>
+            </div>
+
+
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AMr9uuwdPdPoBdUuhBYIchPAt-2c3TfipV8Yk4e-tRLqKgApEPGeJjV2WIIVzAfAYRJ_XPewqcFe-MnHweFxALYXMB2h9o2fwGxjyuwdq5rzgIsRbV-8HP1ecFcnBMOHg8CsTuZq7kiv-QD5MlHCtjwvpsT07veDur56Fj9ediUzSFnFSWVcIrakekYVZd-XA" /></form>
+    </div>
+    <div class="mb-3">
+
+    </div>
+    <div class="row text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>işlem Id</th>
+                    <th>1.Sayı</th>
+                    <th>2.Sayı</th>
+                    <th>Sonuc</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                        <tr>
+                            <td>
+                             08dbdabe-6a0b-488e-8649-4979f27d288c
+                            </td>
+                            <td>
+                            0
+                            </td>
+                            <td>
+                            1
+                            </td>
+                            <td>
+                            
+                            </td>
+                        </tr>                   
+            </tbody>
+        </table>
+
+
+    </div>
+
+       
+    
+</div>
+<script>
+    function islem(data) {
+        var sayi1 = document.getElementById("sayi1Input").value;
+        var sayi2 = document.getElementById("sayi2Input").value;
+        $.ajax({
+            url: '/Index' + '?data=' + data + '&sayi1=' + sayi1 + '&sayi2=' + sayi2,
+            type: 'GET',
+            contentType: 'application/json',
+            success: function (result) {
+                if (result) {
+
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+                else {
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+
+            },
+            error: function (xhr, status, error) {
+                location.reload();
+            }
+        });
+    }
+  
+</script>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - HesapMakinesi 
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/logout.js"></script>
+
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>
+2023-11-01 13:14:46.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index?data=1&sayi1=2&sayi2=3 application/json - - 200 - text/html;+charset=utf-8 170.6361ms
+2023-11-01 13:14:46.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/Index - -
+2023-11-01 13:14:46.364 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7059
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-11-01 13:14:46.365 +03:00 [INF] Executing endpoint '/Index'
+2023-11-01 13:14:46.365 +03:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-11-01 13:14:46.366 +03:00 [INF] Executing handler method HesapMakinesi.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-01 13:14:46.367 +03:00 [INF] Entity Framework Core 6.0.14 initialized 'MyDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.34-mysql 
+2023-11-01 13:14:46.368 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__UserId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`CreatedDate`, `m`.`Sayi1`, `m`.`Sayi2`, `m`.`Sonuc`, `m`.`UserId`
+FROM `Mathematics` AS `m`
+WHERE CAST(`m`.`UserId` AS char) = @__UserId_0
+2023-11-01 13:14:46.369 +03:00 [INF] Executed handler method OnGet, returned result .
+2023-11-01 13:14:46.370 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-01 13:14:46.370 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-01 13:14:46.372 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-11-01 13:14:46.375 +03:00 [INF] Executed page /Index in 9.1012ms
+2023-11-01 13:14:46.376 +03:00 [INF] Executed endpoint '/Index'
+2023-11-01 13:14:46.376 +03:00 [INF] ResponseBody: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi - HesapMakinesi</title>
+    
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/HesapMakinesi.styles.css?v=2urqGy8qm6EiyGdOPOvrgJg6136kzDZQyqm4UEtjvgc" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/Index">HesapMakinesi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Index">Hesap Makinesi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Admin">Admin Sayfası</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Login">Giriş Yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Register">Kayıt ol</a>
+                        </li>
+                        <li class="nav-item">                           
+                                <button class="btn btn-dark mt-1" id="logoutButton" formaction="/Index">Çıkış Yap</button>                          
+                        </li>
+                     
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+          
+            
+<div class="row text-center">
+    <h1 class="display-4">Hesap Makinesine Hoşgeldiniz</h1>
+    <div class="col-md-4 " style="margin-left: 300px;">
+        <form method="post">
+            
+            <div class="form-group mb-3">
+                <label for="Mathematics_Sayi1">1.Sayı</label>
+                <input type="number" id="sayi1Input" data-val="true" data-val-number="The field Sayi1 must be a number." data-val-required="Say&#x131; 1 alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz" name="Mathematics.Sayi1" value="" />              
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Mathematics.Sayi1" data-valmsg-replace="true"></span>
+
+            <div class="form-group mb-3">
+                <label for="Mathematics_Sayi2">2.Sayı</label>
+                <input type="Number" id="sayi2Input" data-val="true" data-val-number="The field Sayi2 must be a number." data-val-required="Say&#x131; 2 alan&#x131; bo&#x15F; b&#x131;rak&#x131;lamaz" name="Mathematics.Sayi2" value="" />
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Mathematics.Sayi2" data-valmsg-replace="true"></span>
+            <div class="form-group ">
+                <button type="button"  class="btn btn-primary" onclick="islem(1)">Topla</button>
+                <button type="button" class="btn btn-primary" onclick="islem(2)">Çıkar</button>
+                <button type="submit" class="btn btn-primary" formaction="/Index?data=3">Çarp</button>
+                <button type="submit" class="btn btn-primary" formaction="/Index?data=4">Böl</button>
+            </div>
+
+
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8AMr9uuwdPdPoBdUuhBYIchmfTFuvPUgIfDUf_O6iXSre2MToltkATvlE5sTWXhvqOobKk0qafuHkcD3lpTbuET3e0gbHRxy6KoBcUB7ycRuYgYf1-UPvrubEFAIqBSFilxoYj_bgQ7D8LQUgxuBFxCrheZWAxxITCItVMBFrlp67Wa_TkwlmreT9oSmb9SD3w" /></form>
+    </div>
+    <div class="mb-3">
+
+    </div>
+    <div class="row text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>işlem Id</th>
+                    <th>1.Sayı</th>
+                    <th>2.Sayı</th>
+                    <th>Sonuc</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                        <tr>
+                            <td>
+                             08dbdac3-5fb9-41b7-8f83-7aac3b395d46
+                            </td>
+                            <td>
+                            2
+                            </td>
+                            <td>
+                            3
+                            </td>
+                            <td>
+                            5
+                            </td>
+                        </tr>                   
+            </tbody>
+        </table>
+
+
+    </div>
+
+       
+    
+</div>
+<script>
+    function islem(data) {
+        var sayi1 = document.getElementById("sayi1Input").value;
+        var sayi2 = document.getElementById("sayi2Input").value;
+        $.ajax({
+            url: '/Index' + '?data=' + data + '&sayi1=' + sayi1 + '&sayi2=' + sayi2,
+            type: 'GET',
+            contentType: 'application/json',
+            success: function (result) {
+                if (result) {
+
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+                else {
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1);
+
+                }
+
+            },
+            error: function (xhr, status, error) {
+                location.reload();
+            }
+        });
+    }
+  
+</script>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - HesapMakinesi 
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/logout.js"></script>
+
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>
+2023-11-01 13:14:46.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/Index - - - 200 - text/html;+charset=utf-8 16.5651ms
+2023-11-01 13:14:46.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - -
+2023-11-01 13:14:46.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - -
+2023-11-01 13:14:46.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 1.1498ms
+2023-11-01 13:14:46.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.6864ms
+2023-11-01 13:14:46.400 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2023-11-01 13:14:46.402 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Kainat Holding\source\repos\HesapMakinesi\HesapMakinesi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2023-11-01 13:14:46.403 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7059/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 2.8104ms

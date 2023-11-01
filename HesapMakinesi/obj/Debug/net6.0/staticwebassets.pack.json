@@ -13,12 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\deleted.js",
+      "PackagePath": "staticwebassets\\js\\deleted.js"
     },
     {
-      "Id": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\sweetalert.js",
-      "PackagePath": "staticwebassets\\js\\sweetalert.js"
+      "Id": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\logout.js",
+      "PackagePath": "staticwebassets\\js\\logout.js"
+    },
+    {
+      "Id": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\Kainat Holding\\source\\repos\\HesapMakinesi\\HesapMakinesi\\wwwroot\\lib\\bootstrap\\LICENSE",
